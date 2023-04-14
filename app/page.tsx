@@ -6,7 +6,8 @@ import Services from './components/Services'
 import Skills from './components/Skills'
 import Timeline from './components/Timeline'
 import Gallery from './components/Gallery'
-import Contact from './components/contact'
+import Contact from './components/Contact'
+
 
 const inter = Inter({ subsets: ['latin'] })
 
