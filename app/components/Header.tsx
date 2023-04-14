@@ -8,7 +8,7 @@ import { FaLinkedin } from 'react-icons/fa'
 
 
 
-export default function () {
+export default function Header() {
   return (
     <div className='flex flex-col fixed justify-between  h-[100vh] min-h-[100vh] w-[240px] overflow-hidden'>
         <div className='flex flex-col  my-7 items-center leading-10'>

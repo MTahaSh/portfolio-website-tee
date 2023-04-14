@@ -3,7 +3,7 @@ import { BsTelephone } from 'react-icons/bs'
 import {HiMailOpen} from 'react-icons/hi'
 import { ImLocation } from 'react-icons/im'
 
-export default function () {
+export default function Contact() {
   return (
     <div className='w-full pr-2 flex-col' id='contact'>
         <h1 className='text-4xl font-bold my-16'>CONTACT</h1>
