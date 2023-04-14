@@ -1,7 +1,7 @@
 import React from 'react'
-import { BsTelephone } from 'react-icons/Bs'
-import {HiMailOpen} from 'react-icons/Hi'
-import { ImLocation } from 'react-icons/Im'
+import { BsTelephone } from 'react-icons/bs'
+import {HiMailOpen} from 'react-icons/hi'
+import { ImLocation } from 'react-icons/im'
 
 export default function () {
   return (

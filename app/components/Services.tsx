@@ -1,10 +1,11 @@
 import React from 'react'
 import { FaLightbulb } from 'react-icons/fa'
-import {FiMonitor} from 'react-icons/Fi'
-import {BsGear} from 'react-icons/Bs'
-import {RiFileList3Line} from 'react-icons/Ri'
-import {TbAugmentedReality2, TbBulb} from 'react-icons/Tb'
-import {SiBlender} from 'react-icons/Si'
+import {FiMonitor} from 'react-icons/fi'
+import {BsGear} from 'react-icons/bs'
+import {RiFileList3Line} from 'react-icons/ri'
+import {TbAugmentedReality2, TbBulb} from 'react-icons/tb'
+import {SiBlender} from 'react-icons/si'
+
 
 export default function Services() {
   return (
