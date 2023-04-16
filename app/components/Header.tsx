@@ -10,6 +10,8 @@ import { FaLinkedin } from 'react-icons/fa'
 
 export default function Header() {
   return (
+        
+
     <div className='flex flex-col fixed justify-between  h-[100vh] min-h-[100vh] w-[240px] overflow-hidden'>
         <div className='flex flex-col  my-7 items-center leading-10'>
             <Image className='rounded-full' src={"/profilepic.jpeg"} width={100} height={100} alt='logo'></Image>

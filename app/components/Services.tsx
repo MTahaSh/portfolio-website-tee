@@ -9,12 +9,12 @@ import {SiBlender} from 'react-icons/si'
 
 export default function Services() {
   return (
-    <div className='flex flex-col  w-[100%] my-16 ' id='services'>
+    <div className='flex flex-col  w-[100%] my-16 px-5' id='services'>
       <div className='flex text-left '>
       <h1 className='text-4xl text-left mb-16 font-bold'>SERVICES</h1>
       </div>
 
-      <div className='grid grid-cols-3 gap-6 ' >
+      <div className='grid md:grid-cols-3 grid-flow-row gap-6 ' >
         
         <div className='flex flex-col mt-6 mb-12'>
           

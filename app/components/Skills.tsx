@@ -2,14 +2,14 @@ import React from 'react'
 
 export default function Skills() {
   return (
-    <div className='flex flex-col justify-center items-left  mt-64 mb-64 pr-28' id='skills'>
+    <div className='flex flex-col  justify-center items-left  md:mt-64 mt-16 mb-64 pl-5 pr-14' id='skills'>
         <div className='w-[100%] text-4xl mb-16 font-bold'><h1>SKILLS</h1></div>
 
-        <div className='flex flex-row justify-between flex-wrap '>
+        <div className='flex flex-row md:justify-between flex-wrap  leading-6'>
 
-        <div className='flex max-w-[100%] min-w-[100%] mt-8 mb-24 mx-0 space-x-6'>
+        <div className='flex md:flex-row flex-col max-w-[100%] min-w-[100%] mt-8 md:mb-24 mx-0 md:space-x-6 sace-x-0  '>
 
-        <div className='min-w-[50%] max-w-[50%] '>
+        <div className='md:min-w-[50%]  md:max-w-[50%] md:mb-0 mb-16 '>
             <div className='flex flex-row font-medium text-base min-w-[100%] max-w-[100%] justify-between h-7 '>
             <label htmlFor="Skills">Typescript</label>
             <label  className='text-right' htmlFor="skills">90%</label>
@@ -20,8 +20,8 @@ export default function Skills() {
 
         </div>
 
-<div className='min-w-[50%] max-w-[50%]'>
-            <div className='flex flex-row  font-medium text-base w-[100%] justify-between h-7 '>
+<div className='md:min-w-[50%] md:max-w-[50%] md:mb-0 mb-16'>
+            <div className='flex flex-row  font-medium text-base w-[100%] justify-between h-7  '>
             <label htmlFor="Skills">Tailwind CSS</label>
             <label  className='text-right' htmlFor="skills">80%</label>
             </div>
@@ -34,9 +34,9 @@ export default function Skills() {
         </div>
 
 
-<div className='flex min-w-[100%] max-h-[100%] space-x-6'> 
-<div className='min-w-[50%] max-w-[50%] '>
-            <div className='flex flex-row font-medium text-base w-[100%] justify-between h-7 '>
+<div className='flex md:flex-row flex-col  min-w-[100%] max-h-[100%]  md:space-x-6 space-x-0'> 
+<div className='md:min-w-[50%] md:max-w-[50%] md:mb-0 mb-16'>
+            <div className='flex flex-row  font-medium text-base w-[100%] justify-between h-7   '>
             <label htmlFor="Skills">Next Js</label>
             <label  className='text-right' htmlFor="skills">70%</label>
             </div>
@@ -46,8 +46,8 @@ export default function Skills() {
 
         </div>
 
-<div className='min-w-[50%] max-w-[50%]'>
-            <div className='flex flex-row font-medium text-base w-[100%] justify-between h-7 '>
+<div className='md:min-w-[50%] md:max-w-[50%] md:mb-0 mb-4'>
+            <div className='flex flex-row  font-medium text-base w-[100%] justify-between h-7  '>
             <label htmlFor="Skills">UI/UX Design</label>
             <label  className='text-right' htmlFor="skills">85%</label>
             </div>

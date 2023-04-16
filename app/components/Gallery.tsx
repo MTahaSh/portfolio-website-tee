@@ -5,15 +5,17 @@ import React from 'react'
 export default function Gallery() {
   return (
 
-    <div className='my-16' id='works'>
-      <h1 className='text-4xl font-bold my-10'>WORKS</h1>  
+    <div className='my-16 md:px-2 ' id='works'>
+        
+        <div className='px-5 mb-32'>
+      <h1 className='text-4xl font-bold  my-10'>WORKS</h1>  
+      </div>
 
-
-<div className="grid grid-cols-2 md:grid-cols-3 gap-4 px-8">
+<div className="grid  md:grid-cols-3 grid-flow-row md:px-0 px-16  gap-4 ">
     
     <div className='border pr-2 pb-64 pl-2 '>
         <h1 className='font-bold text-xl'>Panaverse DAO Website</h1>
-        {<hr />}
+        {<hr />}        
         <p className='leading-7'>The panaverse dao website's front-end is developed using next js and tailwind CSS. <Link className='text-blue-400' target='_blank' href={"https://github.com/MTahaSh/panaverse-dao-tailwind-tee"}>Learn More</Link></p>
         
     </div>
