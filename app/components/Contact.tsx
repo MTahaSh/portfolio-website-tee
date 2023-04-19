@@ -46,7 +46,9 @@ export default function Contact() {
 </div>
 
     <div className='flex flex-col items-center justify-center my-16 '>
-      <button className=' bg-blue-700 md:px-72 px-20 grow-1 mx-auto md:py-4 py-4 font-bold '>SUBMIT MESSAGE</button>
+      <button className=' bg-blue-700 md:px-72 px-20 grow-1 mx-auto md:py-4 py-4 font-bold before:content-[""] before:w-full before:h-full before:absolute before:top-full before:left-0 before:bg-black overflow-hidden before:translate-y-0 before:transition-transform  relative before:hover:bg-black before:hover:translate-y-[-100%] hover:text-blue-800 border-2 border-blue-700'>
+       <span className='relative'> SUBMIT MESSAGE </span>
+        </button>
       </div>
 
 
